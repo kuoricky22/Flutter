@@ -14,3 +14,7 @@ Flutter課程的作品
   - 打開 Flutter資料夾裡的 flutter_console 檔案
   - 指令：flutter doctor ，並依循著裡面的訊息去做安裝的動作
 - 擴充軟體：Android Studio -> Setting -> Plugins 搜尋並安裝 Flutter、Dart
+
+## 課程部分
+
+- [Home 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/Home.dart)
