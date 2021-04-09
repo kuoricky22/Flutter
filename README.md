@@ -17,4 +17,16 @@ Flutter課程的作品
 
 ## 課程部分
 
-- [Home 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/Home.dart)
+- 主要呈現畫面的程式碼
+  - [main 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/main.dart)
+  - [Home 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/Home.dart)
+  - [Member 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/news/Member.dart)
+  - [CourseInfo 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/CourseInfo.dart)
+
+- API 設定API的程式碼
+  - [Api 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Api.dart)
+  - [Url 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Url.dart) 
+
+- Model 取資料用的API (可看可不看，單純把API取得的JSON轉DART後貼到程式碼裡)
+  - [News 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/News.dart)
+  - [Banner 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/Banners.dart) 
