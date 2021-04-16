@@ -208,8 +208,14 @@ class _HomeState extends State<Home> {
                     */
                     /*
                     * MaterialPageRoute 是一個 Material 元件庫的一個 Widget，用途可以實現頁面切換時風格一致
-                    * Parameter:
-                    *       - WidgetBuilder builder*/
+                    *   對於Android，
+                    *   打開新頁面時，新的頁面會從屏幕底部滑動到屏幕頂部；
+                    *   關閉頁面時，當前頁面會從屏幕頂部滑動到屏幕底部後消失，同時上一個頁面會顯示到屏幕上。
+                    *   對於iOS，
+                    *   當打開頁面時，
+                    *   新的頁面會從屏幕右側邊緣一致滑動到屏幕左邊，直到新頁面全部顯示到屏幕上，而上一個頁面則會從當前屏幕滑動到屏幕左側而消失；
+                    *   關閉頁面時，正好相反，當前頁面會從屏幕右側滑出，同時上一個頁面會從屏幕左側滑入。
+                    */
                     Navigator.push(context, MaterialPageRoute(builder: (context) => NewsDetail(passData)));
                   },
                 );
