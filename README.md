@@ -1,16 +1,32 @@
 # flutter_app
 
-A new Flutter application.
+Flutter課程的作品
 
-## Getting Started
+## 課程大綱
 
-This project is a starting point for a Flutter application.
+本次上課的教學是教導學生如何使用Flutter做出一個APP，除了了解Flutter結構外，也會帶我們如何串接API，如何處理API的資料。
 
-A few resources to get you started if this is your first Flutter project:
+## 必要工具
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+在課程會使用的軟體：
+- Andriod Studio
+- Flutter SDK
+  - 打開 Flutter資料夾裡的 flutter_console 檔案
+  - 指令：flutter doctor ，並依循著裡面的訊息去做安裝的動作
+- 擴充軟體：Android Studio -> Setting -> Plugins 搜尋並安裝 Flutter、Dart
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 課程部分
+
+- 主要呈現畫面的程式碼
+  - [main 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/main.dart)
+  - [Home 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/Home.dart)
+  - [Member 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/news/Member.dart)
+  - [CourseInfo 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/CourseInfo.dart)
+
+- API 設定API的程式碼
+  - [Api 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Api.dart)
+  - [Url 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Url.dart) 
+
+- Model 取資料用的API (可看可不看，單純把API取得的JSON轉DART後貼到程式碼裡)
+  - [News 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/News.dart)
+  - [Banner 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/Banners.dart) 
