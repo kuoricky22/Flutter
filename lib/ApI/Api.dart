@@ -25,7 +25,7 @@ class Api {
     }
   }
   
-  // 4/13 內容
+  // 4/13 上課內容
   static Future queryCoach() async{
     Response response;
     // await 此方法須非同步(async)，所以會在 Method 中加入 async
