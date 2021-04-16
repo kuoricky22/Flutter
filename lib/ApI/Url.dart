@@ -8,3 +8,6 @@ const String bannerUrl = '$BaseUrl/Banner/Preview';
 
 // 取回最新消息
 const String newsUrl = '$BaseUrl/JasperNews/Index';
+
+// 取回教練訊息
+const String coachUrl = '$BaseUrl/JasperCoach/query';

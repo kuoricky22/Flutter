@@ -24,4 +24,13 @@ class Api {
       return response.data;
     }
   }
+
+  static Future queryCoach() async{
+    Response response;
+    // await 此方法須非同步(async)，所以會在 Method 中加入 async
+    response = await Dio().post('$coachUrl');
+    if(response.statusCode == HttpStatus.ok){
+      return response.data;
+    }
+  }
 }
