@@ -24,8 +24,8 @@ Flutter課程的作品
   - [CourseInfo 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/CourseInfo.dart)
 
 - API 設定API的程式碼
-  - [Api 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Api.dart)
-  - [Url 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Url.dart) 
+  - [Api 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Api.dart)
+  - [Url 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Url.dart) 
 
 - Model 取資料用的API (可看可不看，單純把API取得的JSON轉DART後貼到程式碼裡)
   - [News Model程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/News.dart)
@@ -37,6 +37,10 @@ Flutter課程的作品
     - [News Detail 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/news_detail.dart)
     - [basic 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/basic.dart)
   - [CourseInfo 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/CourseInfo.dart)
+    - [Coach 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/coach.dart)
+      - [CoachDetail 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/CoachDetail.dart)
+      - [CoachDetail_item 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/CoachDetail_item.dart)
+    - [Course 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/course.dart)
 
 - API 設定API的程式碼
   - [Api 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Api.dart)
