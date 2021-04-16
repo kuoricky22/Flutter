@@ -15,7 +15,7 @@ Flutter課程的作品
   - 指令：flutter doctor ，並依循著裡面的訊息去做安裝的動作
 - 擴充軟體：Android Studio -> Setting -> Plugins 搜尋並安裝 Flutter、Dart
 
-## 課程部分
+## 4/06課程部分(Home內容新增)
 
 - 主要呈現畫面的程式碼
   - [main 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/main.dart)
@@ -28,5 +28,19 @@ Flutter課程的作品
   - [Url 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Url.dart) 
 
 - Model 取資料用的API (可看可不看，單純把API取得的JSON轉DART後貼到程式碼裡)
-  - [News 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/News.dart)
-  - [Banner 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/Banners.dart) 
+  - [News Model程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/News.dart)
+  - [Banner Model程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/Banners.dart) 
+
+## 4/13課程部分(Home新增點擊項目並呈現項目內容，CurseInfo內容新增)
+- 主要呈現畫面的程式碼
+  - [Home 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/Home.dart)
+    - [News Detail 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/news_detail.dart)
+    - [basic 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/home/basic.dart)
+  - [CourseInfo 程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/courseinfo/CourseInfo.dart)
+
+- API 設定API的程式碼
+  - [Api 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Api.dart)
+  - [Url 畫面程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/ApI/Url.dart) 
+
+- Model 取資料用的API (可看可不看，單純把API取得的JSON轉DART後貼到程式碼裡)
+  - [Coach Model程式碼](https://github.com/kuoricky22/Flutter/blob/main/lib/Model/Coach.dart)
