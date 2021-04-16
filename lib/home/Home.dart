@@ -63,16 +63,18 @@ class _HomeState extends State<Home> {
       // 內容
       body:
       FutureBuilder(
+        // wait() : 等待所有的future完成後再一起返回,如果中間過程中又任意一個Future出錯,則整個失敗
         future: Future.wait([
           Api.queryBanner(),
           Api.queryNews()
         ]),
 
         // context：當前APP的內容
-        // snapshot：API執行完後放入snapshot
+        // snapshot：Future.wait()執行完後放入snapshot
         builder: (context, snapshot){
           if(!snapshot.hasData){
             return Center(
+              // Loading 符號 (轉圈圈)
               child: CircularProgressIndicator(),
             );
           }
@@ -200,6 +202,7 @@ class _HomeState extends State<Home> {
                   // News 點擊事件
                   onTap: () {
                     final passData = news.data.result[index];
+                    
                     /*
                     * Navigator 用途在於管理進出頁面的機制，本身是一個Stack(堆疊)
                     * Method:
